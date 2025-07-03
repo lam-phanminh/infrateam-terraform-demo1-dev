@@ -1,7 +1,7 @@
 variable "project_id" {
   type        = string
   description = "The project ID to host the cluster in (required)"
-  default     = "infra-test"
+  default     = "infrateam-playground"
 }
 
 variable "region" {
@@ -13,5 +13,5 @@ variable "region" {
 variable "env" {
   type        = string
   description = "The project name"
-  default     = "test"
+  default     = "dev"
 }
