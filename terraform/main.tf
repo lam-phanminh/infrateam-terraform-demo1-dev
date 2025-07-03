@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "infrateam-playground-tf-state"
+    bucket = "demo-project-tf-state-dev"
     prefix = "test-tf-modules/state"
   }
 }
